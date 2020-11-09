@@ -252,6 +252,11 @@ main {
   background: #fff;
 }
 
+.section--grey {
+  background: #eee;
+  z-index: 0;
+}
+
 .section--orange {
   background: #e8bd38;
 }
