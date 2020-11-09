@@ -94,6 +94,7 @@ header {
   overflow: hidden;
   flex-direction: column;
   transition: height 300ms ease-in;
+  z-index: 2;
 }
 
 .nav__item {
