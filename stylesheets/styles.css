@@ -398,10 +398,6 @@ main {
   flex-wrap: wrap;
 }
 
-.section__text {
-  padding: 0 2em;
-}
-
 .section__title {
   margin-bottom: 0.3em;
   font-size: 4rem;
@@ -495,6 +491,10 @@ main {
   .section__content {
     flex-wrap: nowrap;
     align-items: center;
+  }
+
+  .section__text {
+    padding: 0 2em;
   }
 
   .section__image {
