@@ -24,6 +24,7 @@ ul {
 
 header {
   height: 5.6rem;
+  padding: 0 10vw;
   position: relative;
   background: #2d343a;
   display: flex;
@@ -32,17 +33,16 @@ header {
 
 .logo {
   height: 100%;
-  width: 20rem;
+  width: 10rem;
 }
 
 .flow-logo {
   height: 100%;
   width: 100%;
-  /* display: none; */
 }
 
 .hamburger {
-  margin-right: 3em;
+  /* margin-right: 3em; */
   padding: 1.8em 1.2em;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 2px;
@@ -242,19 +242,17 @@ main {
 }
 
 .section {
-  padding: 7em 0;
+  padding: 7em 10vw;
   position: relative;
   z-index: 1;
 }
 
 .section--light {
   background: #fff;
-  /* z-index: 1; */
 }
 
 .section--orange {
   background: #e8bd38;
-  /* z-index: 1; */
 }
 
 .section--dark {
@@ -501,7 +499,7 @@ main {
 }
 
 footer {
-  padding: 0 0;
+  padding: 0 10vw;
   background: #2d343a;
   color: #fff;
   font-size: 1.6rem;
